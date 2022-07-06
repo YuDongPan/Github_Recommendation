@@ -18,6 +18,6 @@ This project is supported by the open source summer activity and the towhee comm
 | ---- | ---- | ---- |---- |---- |
 
 * Based on different requirements, we provide three types of data for users to process:`data_demo`,`data_raw`,`data_clean`
-    - `data_demo`:A small data set for users to do pre experiments,includes 505 users,274721 projects, 601027 records totally.
-    - `data_raw`: Medium scale datasets for designing landing algorithms,includes 10654 users, 657347 projects, 2360861 records totally.
-    - `data_clean`: Projects with no more than 3 stars are filtered in the `data_raw`, includes 10654 users, 128750 projects, 1749929 records totally.
+    - `data_demo`:A small data set for users to do pre experiments,includes 10000 users, 254329 projects, 3151825 records totally.
+    - `data_raw`: Medium scale datasets for designing landing algorithms,includes 70129 users, 2523488 projects, 26093909 records totally.
+    - `data_clean`: Projects with no more than 10 stars are filtered in the `data_raw`, includes 70129 users, 271530 projects, 21775242 records totally.
