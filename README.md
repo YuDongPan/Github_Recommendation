@@ -23,6 +23,7 @@ This project is supported by the open source summer activity and the towhee comm
 
 ## Baseline Algorithm
 * User-based Collaborative Filtering
+![image](Image/UbCF.png)
 
 ## DL Algorithm Design
 * GC-MC(Graph Convolution Matrix Completion)
