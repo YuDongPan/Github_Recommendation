@@ -2,7 +2,7 @@
 ## Introduction
 This project is supported by the open source summer activity and the towhee community. It aims to design an efficient recommendation algorithm to recommend favorite projects for users.
 
-![image](towhee.png)
+![image](Image/towhee.png)
 
 ## Development Progress
 * Data Collection

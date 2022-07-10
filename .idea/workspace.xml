@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe36610b-cf55-49d1-832e-033fb4a1209b" name="Default Changelist" comment="&quot;Update the raw data, and change the way to fetching data&quot;">
+      <change afterPath="$PROJECT_DIR$/Model/GNN.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/esol/processed/data.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/esol/processed/pre_filter.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/esol/processed/pre_transform.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/esol/raw/delaney-processed.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/mol.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test/test_GNN.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/UserbasedCF_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/UserbasedCF_demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +60,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/Github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SSVEPNet" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -71,29 +79,7 @@
       <recent name="D:\PycharmProjects\Github_recommendation\Reptile\data_result\data1-1000" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_Github_UserbasedCF">
-    <configuration name="get_user_info" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Github_Recommendation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Reptile" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Reptile/get_user_info.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.test_GNN">
     <configuration name="get_user_repo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Github_Recommendation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,6 +146,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_GNN" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Github_Recommendation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/test_GNN.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_Github_UserbasedCF" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Github_Recommendation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test_GNN" />
         <item itemvalue="Python.test_Github_UserbasedCF" />
         <item itemvalue="Python.get_user_star" />
         <item itemvalue="Python.merge" />
         <item itemvalue="Python.get_user_repo" />
-        <item itemvalue="Python.get_user_info" />
       </list>
     </recent_temporary>
   </component>
@@ -234,6 +242,11 @@
       <workItem from="1657082444989" duration="9269000" />
       <workItem from="1657092623925" duration="27000" />
       <workItem from="1657092670045" duration="1054000" />
+      <workItem from="1657109205819" duration="715000" />
+      <workItem from="1657163132611" duration="771000" />
+      <workItem from="1657204486581" duration="12000" />
+      <workItem from="1657293436739" duration="640000" />
+      <workItem from="1657366273217" duration="8718000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Implementing synergetic process in fetching data&quot;">
       <created>1655965977619</created>
@@ -328,6 +341,7 @@
     <SUITE FILE_PATH="coverage/Github_recommendation$test_UserbasedCF.coverage" NAME="test_UserbasedCF Coverage Results" MODIFIED="1656517897194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/Github_recommendation$test_concat.coverage" NAME="test_concat Coverage Results" MODIFIED="1655923651607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/Github_recommendation$split.coverage" NAME="split Coverage Results" MODIFIED="1656068914462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Reptile" />
+    <SUITE FILE_PATH="coverage/Github_recommendation$test_GNN.coverage" NAME="test_GNN Coverage Results" MODIFIED="1657381127555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test" />
     <SUITE FILE_PATH="coverage/Github_recommendation$test.coverage" NAME="test Coverage Results" MODIFIED="1656685698810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Reptile/github_users" />
     <SUITE FILE_PATH="coverage/Github_recommendation$raw_users_merge.coverage" NAME="raw_users_merge Coverage Results" MODIFIED="1656068478075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Utils" />
     <SUITE FILE_PATH="coverage/Github_recommendation$merge.coverage" NAME="merge Coverage Results" MODIFIED="1657082787834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Reptile/data_result/dataAll" />

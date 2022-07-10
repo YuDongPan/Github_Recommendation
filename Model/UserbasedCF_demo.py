@@ -1,10 +1,8 @@
 # 设计师:Pan YuDong
 # 编写者:God's hand
 # 时间:2022/6/17 20:13
-import sys
 import random
 import math
-import os
 from operator import itemgetter
 
 from collections import defaultdict
