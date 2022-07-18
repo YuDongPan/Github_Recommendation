@@ -16,11 +16,10 @@ This project is supported by the open source summer activity and the towhee comm
 | user | project | star | fork | has_star |
 | ---- | ---- | ---- |---- |---- |
 
-* Based on different requirements, we provide four types of data for users to process:`users`,`projects`,`data_demo`,`data_clean`
+* Based on different requirements, we provide two sizes of data folder for users to process:`small`,`large`.Each data folder includes three types of csv files:
     - `users`: User information table, include the mapping relationship between index and username
     - `projects`:Project information table, use three fileds('name', 'star', 'fork') to depict projects
-    - `data_demo`:A small dataset for users to do pre experiments,include 3000 users, 182404 projects, 929489 records totally.
-    - `data_clean`: A Medium scale dataset for users to do online test, include 70129 users, 271530 projects, 21775242 records totally.
+    - `data`:Correlation information between user and project. In this project, we use the field 'has_star' to manifest the relationship. In the small dataset, it includes 3000 users, 182404 projects, 929489 records totally.In the large dataset, it includes 70129 users, 271530 projects, 21775242 records totally.
 
 ## Baseline Algorithm
 * User-based Collaborative Filtering
