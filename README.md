@@ -29,6 +29,6 @@ This project is supported by the open source summer activity and the towhee comm
 
 ## DL Algorithm Design
 * GC-MC(Graph Convolution Matrix Completion, Berg et al. KDD 2018)
-![image](Image/GCMC.png)
+![image](Image/GCMC.jpg)
 * IG-MC(Inductive Graph-based Matrix Completion, Zhang et al. ICLR 2019)
-![image](Image/IGMC.png)
+![image](Image/IGMC.jpg)
