@@ -4,7 +4,7 @@
 import Model.UbCF as UbCF
 
 
-data_filename = '../data/data_demo.csv'
+data_filename = '../data/small/data.csv'
 usercf = UbCF.UserbasedCF()
 usercf.generate_dataset(data_filename, pivot=0.5)
 usercf.calc_user_sim()
