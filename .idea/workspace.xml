@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe36610b-cf55-49d1-832e-033fb4a1209b" name="Default Changelist" comment="&quot;Update the raw data, and change the way to fetching data&quot;">
-      <change afterPath="$PROJECT_DIR$/Image/UbCF.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/IGMC.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/RSDataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/GCMC.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Image/IGMC.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/UbCF.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/ItembasedCF.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/GC-MC.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/UserbasedCF.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model/UbCF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/UserbasedCF_demo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_Github_UserbasedCF.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_Github_UbCF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_Movie_UserbasedCF.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_concat.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_pandas.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_selenium.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_yield.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Github/data_clean.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_clean.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Github/data_demo.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/data_demo.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Github/projects.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/projects.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Github/users.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/users.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Movie/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Movie/movies.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Movie/ratings.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/Movie/users.dat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +73,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/data/Github" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -68,11 +85,11 @@
       <recent name="D:\PycharmProjects\Github_recommendation\Reptile\data_result" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\PycharmProjects\Github_recommendation\data" />
       <recent name="D:\PycharmProjects\Github_recommendation\Image" />
       <recent name="D:\PycharmProjects\Github_recommendation\Test" />
       <recent name="D:\PycharmProjects\Github_recommendation\Reptile" />
       <recent name="D:\PycharmProjects\Github_recommendation\data\Github" />
-      <recent name="D:\PycharmProjects\Github_recommendation\Utils" />
     </key>
   </component>
   <component name="RunManager" selected="Python.test_GNN">
@@ -164,7 +181,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_Github_UserbasedCF" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test_Github_UbCF" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Github_Recommendation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -177,7 +194,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test/test_Github_UserbasedCF.py" />
+      <option name="SCRIPT_NAME" value="D:\PycharmProjects\Github_recommendation\Test\test_Github_UbCF.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,7 +206,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.test_GNN" />
-        <item itemvalue="Python.test_Github_UserbasedCF" />
+        <item itemvalue="Python.test_Github_UbCF" />
         <item itemvalue="Python.get_user_star" />
         <item itemvalue="Python.merge" />
         <item itemvalue="Python.get_user_repo" />
@@ -247,7 +264,7 @@
       <workItem from="1657527364745" duration="8000" />
       <workItem from="1658050043267" duration="23000" />
       <workItem from="1658057695768" duration="11896000" />
-      <workItem from="1658117804196" duration="3832000" />
+      <workItem from="1658117804196" duration="6009000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Implementing synergetic process in fetching data&quot;">
       <created>1655965977619</created>
