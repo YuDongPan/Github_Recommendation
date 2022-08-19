@@ -95,6 +95,6 @@ def spider_user_info(source_file, target_file):
         update_userInfo(source_file, project_cnt)
         project_cnt += 1
 
-source_file = './github_users/top30_projects.csv'
+source_file = '../Resource/top30_projects.csv'
 target_file = 'github_users/raw_users1.csv'
 spider_user_info(source_file, target_file)

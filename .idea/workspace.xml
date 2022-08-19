@@ -2,37 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe36610b-cf55-49d1-832e-033fb4a1209b" name="Default Changelist" comment="&quot;Update the raw data, and change the way to fetching data&quot;">
-      <change afterPath="$PROJECT_DIR$/Model/GCMC.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resource/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resource/requirements1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Resource/requirements2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Train/trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tiny/processed/data.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tiny/projects.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tiny/raw/data.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tiny/raw/test.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tiny/raw/train.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tiny/test_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/tiny/users.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Github_Recommendation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Github_Recommendation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Image/IGMC.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/GC-MC.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_Github_GCMC.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/GNN.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/IGMC.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/esol/processed/data.pt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/esol/processed/pre_filter.pt" beforeDir="false" afterPath="$PROJECT_DIR$/data/tiny/processed/pre_filter.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/esol/processed/pre_transform.pt" beforeDir="false" afterPath="$PROJECT_DIR$/data/tiny/processed/pre_transform.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/esol/raw/delaney-processed.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/mol.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test_GNN.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test_Github_UbCF.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_Github_UbCF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test_towhee.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/RSDataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/RSDataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/script.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/script.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/large/data.zip" beforeDir="false" afterPath="$PROJECT_DIR$/data/large/raw/data.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/small/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/small/raw/data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reptile/get_user_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/Reptile/get_user_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resource/requirements1" beforeDir="false" afterPath="$PROJECT_DIR$/Resource/requirements1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resource/requirements2" beforeDir="false" afterPath="$PROJECT_DIR$/Resource/requirements2.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -297,7 +270,7 @@
       <workItem from="1660751414067" duration="10024000" />
       <workItem from="1660827222631" duration="889000" />
       <workItem from="1660832471599" duration="15784000" />
-      <workItem from="1660880107731" duration="5553000" />
+      <workItem from="1660880107731" duration="10220000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Implementing synergetic process in fetching data&quot;">
       <created>1655965977619</created>
