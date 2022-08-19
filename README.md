@@ -42,21 +42,21 @@ Web resource parsing and collaborative crawler technology will be used to collec
 
 ## Baseline Algorithm
 * **User-based Collaborative Filtering**
- 1.We build a similarity matrix of users according to the projects starred by users.
- 2.For each target user, we find top N similiar users to him/her. 
- 3.Recommend top K projects starred by these similiar users.
- 4.For each recommened project, the target user has never seen ever before.
+ 1. We build a similarity matrix of users according to the projects starred by users.
+ 2. For each target user, we find top N similiar users to him/her. 
+ 3. Recommend top K projects starred by these similiar users.
+ 4. For each recommened project, the target user has never seen ever before.
 
 ![image](Image/UbCF.png)
 
 ## DL Algorithm Design
 * **GC-MC(Graph Convolution Matrix Completion, Berg et al. KDD 2018)**
-1.We consider the recommendation task as a link prediction problem.
-2.Since the original dataset has only connected positive edges, we use the negative sampling technique to sample the negative edges with the same number of connected positive edges.
-3.Thus, this problem degenerates into a binary classification problem.
-4.After training, the trained model was used to calculate the probablity of each project starred by the target user.
-5.Select top K projects with high probability.
-6.For each recommened project, the target user has never seen ever before.
+1. We consider the recommendation task as a link prediction problem.
+2. Since the original dataset has only connected positive edges, we use the negative sampling technique to sample the negative edges with the same number of connected positive edges.
+3. Thus, this problem degenerates into a binary classification problem.
+4. After training, the trained model was used to calculate the probablity of each project starred by the target user.
+5. Select top K projects with high probability.
+6. For each recommened project, the target user has never seen ever before.
 
 ![image](Image/GCMC.jpg)
 
