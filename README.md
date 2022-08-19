@@ -41,22 +41,22 @@ Web resource parsing and collaborative crawler technology will be used to collec
     - `data`:Correlation information between user and project. In this project, we use the field 'has_star' to manifest the relationship. In the tiny dataset, it includes 2105 users, 4761 projects, 311305 records totally. In the small dataset, it includes 3000 users, 182404 projects, 929489 records totally.In the large dataset, it includes 70129 users, 271530 projects, 21775242 records totally.
 
 ## Baseline Algorithm
-* User-based Collaborative Filtering
-- We build a similarity matrix of users according to the projects starred by users.
-- For each target user, we find top N similiar users to him/her. 
-- Recommend top K projects starred by these similiar users.
-- For each recommened project, the target user has never seen ever before.
+* **User-based Collaborative Filtering**
+ 1.We build a similarity matrix of users according to the projects starred by users.
+ 2.For each target user, we find top N similiar users to him/her. 
+ 3.Recommend top K projects starred by these similiar users.
+ 4.For each recommened project, the target user has never seen ever before.
 
 ![image](Image/UbCF.png)
 
 ## DL Algorithm Design
-* GC-MC(Graph Convolution Matrix Completion, Berg et al. KDD 2018)
-- We consider the recommendation task as a link prediction problem.
-- Since the original dataset has only connected positive edges, we use the negative sampling technique to sample the negative edges with the same number of connected positive edges.
-- Thus, this problem degenerates into a binary classification problem.
-- After training, the trained model was used to calculate the probablity of each project starred by the target user.
-- Select top K projects with high probability.
-- For each recommened project, the target user has never seen ever before.
+* **GC-MC(Graph Convolution Matrix Completion, Berg et al. KDD 2018)**
+1.We consider the recommendation task as a link prediction problem.
+2.Since the original dataset has only connected positive edges, we use the negative sampling technique to sample the negative edges with the same number of connected positive edges.
+3.Thus, this problem degenerates into a binary classification problem.
+4.After training, the trained model was used to calculate the probablity of each project starred by the target user.
+5.Select top K projects with high probability.
+6.For each recommened project, the target user has never seen ever before.
 
 ![image](Image/GCMC.jpg)
 
@@ -64,5 +64,6 @@ Web resource parsing and collaborative crawler technology will be used to collec
 ```
 cd Test
 python test_Github_UbCF.py
+or
 python test_Github_GCMC.py
 ```
