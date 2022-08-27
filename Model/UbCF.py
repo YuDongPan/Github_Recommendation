@@ -41,17 +41,17 @@ class UserbasedCF():
 
         raw_dataset = self.loadfile(filename)
         for line in raw_dataset:
-            user, item, star, fork, _ = line.split(',')
+            user, item, has_star = line.split(',')
             unique_id = user + item
             encoder_id = xxhash.xxh32(unique_id).intdigest()
             # split the data by pivot
             if encoder_id % 100 < int(pivot * 100):
                 self.train_dataset.setdefault(user, {})
-                self.train_dataset[user][item] = (star, fork)
+                self.train_dataset[user][item] = has_star
                 train_dataset_len += 1
             else:
                 self.test_dataset.setdefault(user, {})
-                self.test_dataset[user][item] = (star, fork)
+                self.test_dataset[user][item] = has_star
                 test_dataset_len += 1
 
         print('split training dataset and test dataset success')
