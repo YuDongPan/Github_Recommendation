@@ -35,7 +35,7 @@ Web resource parsing and collaborative crawler technology will be used to collec
 | user | project | star | fork | has_star |
 | ---- | ---- | ---- |---- |---- |
 
-* Based on different requirements, we provide two sizes of data folder for users to process:`small`,`large`.Each data folder includes three types of csv files:
+* Based on different requirements, we provide two sizes of data folder for users to process:'tiny',`small`,`large`.Each data folder includes three types of csv files:
     - `users`: User information table, include the mapping relationship between index and username
     - `projects`:Project information table, use three fileds('name', 'star', 'fork') to depict projects
     - `data`:Correlation information between user and project. In this project, we use the field 'has_star' to manifest the relationship. In the tiny dataset, it includes 2105 users, 4761 projects, 311305 records totally. In the small dataset, it includes 3000 users, 182404 projects, 929489 records totally.In the large dataset, it includes 70129 users, 271530 projects, 21775242 records totally.
