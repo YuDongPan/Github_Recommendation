@@ -128,7 +128,8 @@ def calc_rec(out, user_item, num_item, train_idx, test_idx, root, topK):
         precision += user_precision
         recall += user_recall
         rec_lst.append(rec_items)
-        print(f"recommended projects for user {user_dict[i]}: {rec_items}")
+        if i % 100 == 0:
+            print(f"recommended projects for user {user_dict[i]}: {rec_items}")
         # print(f"precision:{user_precision:.6f}, recall:{user_recall:.6f}")
 
     precision = precision / num_user

@@ -1,7 +1,8 @@
 # 设计师:Pan YuDong
 # 编写者:God's hand
 # 时间:2022/6/28 20:00
-import random
+import os
+import pandas as pd
 import math
 import xxhash
 from operator import itemgetter
@@ -134,10 +135,13 @@ class UserbasedCF():
         return sorted(rank.items(), key=itemgetter(1), reverse=True)[0:N]
 
 
-    def evaluate(self):
+    def evaluate(self, root):
         '''print evaluation measurement:precision, recall, coverage and popularity'''
         print('Evaluation Start...')
-
+        df_user = pd.read_csv(os.path.join(root, 'users.csv'))
+        df_project = pd.read_csv(os.path.join(root, 'projects.csv'))
+        user_dict = df_user['name'].to_dict()
+        project_dict = df_project['name'].to_dict()
         # print("item_popular:", self.item_popular)
 
         N = self.n_rec_item
@@ -156,6 +160,11 @@ class UserbasedCF():
                 print(f'recommend for {i} users')
             test_items = self.test_dataset.get(user, {})  # if user doesn't exist in test dataset, return {}
             rec_items = self.recommend(user)
+
+            if i % 100 == 0:
+                rec_projects = [project_dict[int(j[0])] for j in rec_items]
+                print(f"recommended projects for user {user_dict[i]}: {rec_projects}")
+
             if len(rec_items) == 0:
                 empty_user.append(user)
 
