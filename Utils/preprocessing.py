@@ -5,8 +5,8 @@ import numpy as np
 import pandas as pd
 
 
-def transform_data(filepath):
-    df = pd.read_csv(filepath)
+def transform_data(source_path, target_path):
+    df = pd.read_csv(source_path)
 
     # delete rows where stars = 0 and repositories = 0
     df = df.drop(index=df.stars[df.stars == '0'].index)
@@ -49,7 +49,7 @@ def transform_data(filepath):
     print("df:", df)
 
     # save file
-    df.to_csv(filepath, index=False)
+    df.to_csv(target_path, index=False)
 
 
 def clear_data(filepath, low_star, high_star):

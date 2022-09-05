@@ -182,4 +182,4 @@ def spider_user_star_base(filepath):
             stars.clear()
 
 
-spider_user_star_aio('github_users/raw_users1.csv')
+spider_user_star_aio('github_users/raw_users.csv')
